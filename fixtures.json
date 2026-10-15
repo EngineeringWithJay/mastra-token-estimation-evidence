@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "description": "Synthetic strings; first four reproduce the reported inputs. Numeric strings are never parsed as numbers.",
+  "cases": [
+    {"id":"reported-zero-28000","category":"reported-digits","generator":{"kind":"repeat","text":"0","count":28000}},
+    {"id":"reported-digits-20","category":"reported-digits","input":"12345678901234567890"},
+    {"id":"reported-timestamp-13","category":"reported-digits","input":"1700000000000"},
+    {"id":"reported-english","category":"reported-control","input":"hello world this is text"},
+    {"id":"digits-1","category":"digit-boundary","input":"1"},
+    {"id":"digits-2","category":"digit-boundary","input":"12"},
+    {"id":"digits-3","category":"digit-boundary","input":"123"},
+    {"id":"digits-4","category":"digit-boundary","input":"1234"},
+    {"id":"leading-zero-20","category":"leading-zero","input":"00001234567890123456"},
+    {"id":"spaced-numbers","category":"spaced-numbers","input":"1234567890 1700000000000 00001234"},
+    {"id":"mixed-json","category":"mixed-json","input":"{\"id\":\"00001234567890123456\",\"total\":12345,\"ok\":true}"},
+    {"id":"decimal","category":"decimal","input":"1234567890.1234567890"},
+    {"id":"english-punctuation","category":"english-control","input":"Hello, world! This is a short sentence."},
+    {"id":"cjk","category":"cjk-control","input":"你好世界。日本語のテスト。"},
+    {"id":"emoji","category":"emoji-control","input":"😀 👩‍💻 🚀"},
+    {"id":"empty","category":"empty-control","input":""}
+  ]
+}

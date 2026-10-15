@@ -1,0 +1,17 @@
+id,category,utf8_bytes,code_points,utf16_units,input_sha256,stable,alpha,legacy,comparator,ascii_digit_heuristic_ceil_n_over_3,comparator_over_stable
+reported-zero-28000,reported-digits,28000,28000,28000,9142a6b0761f27638f8d3defbc6c6ea286cbcd91107dadcb2d0022bbb1c8bdb9,1,1,1,9334,9334,9334
+reported-digits-20,reported-digits,20,20,20,6ed645ef0e1abea1bf1e4e935ff04f9e18d39812387f63cda3415b46240f0405,1,1,1,7,7,7
+reported-timestamp-13,reported-digits,13,13,13,bc99b4bf100ad96cc4db80d1f6b724f9d17d0a1c19f011d908ee810fffda7484,1,1,1,5,5,5
+reported-english,reported-control,24,24,24,46e5e762fd781907641d897e379962ab018c282c22aad853d2c0a137afb931d1,5,5,5,5,,1
+digits-1,digit-boundary,1,1,1,6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b,1,1,1,1,1,1
+digits-2,digit-boundary,2,2,2,6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918,1,1,1,1,1,1
+digits-3,digit-boundary,3,3,3,a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3,1,1,1,1,1,1
+digits-4,digit-boundary,4,4,4,03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4,1,1,1,2,2,2
+leading-zero-20,leading-zero,20,20,20,3baefb7cef6078c9c13fc1361d50f4c9e8e12d8c59af0afe98a53a5f89d5787c,1,1,1,7,7,7
+spaced-numbers,spaced-numbers,33,33,33,30b18287bdc36379bc7450ee5ba6af4cdf606c8f15b7762cfd5868e26139408e,3,3,3,12,,4
+mixed-json,mixed-json,53,53,53,49e9291cf04c00565833c6d5d9ef6a75c941113d76fbf840dbf3ef2d32d7af80,17,17,17,20,,1.1764705882352942
+decimal,decimal,21,21,21,6190259c94ee14f29f4444f83ef0bd0ffab82c0ac1d99b8a13c0a3934ef15131,3,3,3,9,,3
+english-punctuation,english-control,39,39,39,ae975a70e00d1508405a6ecd9374ae5c12c4eb3d9769941b04c1cbdcc93eb325,11,11,11,11,,1
+cjk,cjk-control,39,13,13,90bdbcd9b301222581e2718e6d5da588332cc058c35b0fd4b71a3d664fef3363,13,13,13,12,,0.9230769230769231
+emoji,emoji-control,21,7,11,c6593339e4701cd794d67669d2a1d1c258dec442119cf269faf01a1803114319,3,3,3,8,,2.6666666666666665
+empty,empty-control,0,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,0,0,,

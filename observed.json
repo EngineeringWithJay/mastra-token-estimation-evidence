@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "interpretation": "Versioned estimator comparison, not model-token ground truth; one coexisting installation, not an upgrade intervention.",
+  "runtime": {
+    "node": "v24.14.1",
+    "icu": "78.2",
+    "unicode": "17.0",
+    "intl_locale": "en-US",
+    "segmenter_locale": "en-US",
+    "platform": "darwin",
+    "arch": "arm64"
+  },
+  "safety": {
+    "scope": "Process-local guarded APIs, not an OS sandbox.",
+    "environment": "minimal-empty-home",
+    "guarded_attempts": {
+      "imports": 0,
+      "cases": 0,
+      "selftest": 0
+    }
+  },
+  "provenance": {
+    "package_lock_sha256": "f7c9bef0294655f7f983e912a27020d7b4037cac3778540324566b29aca7bbdc",
+    "fixtures_sha256": "25c8f75c84ac7a5f070214bd80417599ad9e82382bb4527c42a8662dcd345612",
+    "packages": [
+      {
+        "installation": "@mastra/memory",
+        "name": "@mastra/memory",
+        "version": "1.37.1",
+        "declared": "1.37.1",
+        "lock_integrity": "sha512-nAgCtvDIKgTA9CXS/VfgePtcrJaolv9ojIqELABDURIZwu8lGBHFDeyo7V9ovpRbjfHcvKva1udv3BVyaaixTQ==",
+        "esm_specifier": "@mastra/memory/processors",
+        "esm_entry": "node_modules/@mastra/memory/dist/processors/index.js",
+        "esm_entry_sha256": "c107199d44f87f95a2ed42e0589f41dc31592d3e923ad3999fe43c7e622c9671",
+        "package_json_sha256": "d63a203cacb51a5f9dac4ecb0f8fe2d11e58c53157925021406e6ee2d1ce871b"
+      },
+      {
+        "installation": "mastra-memory-alpha",
+        "name": "@mastra/memory",
+        "version": "1.38.0-alpha.0",
+        "declared": "npm:@mastra/memory@1.38.0-alpha.0",
+        "lock_integrity": "sha512-DKqpuqfJZ2c8GMxUOgG/ZePGBnPMPwOncFbGfHehgz3OCZIe3Jdr8p9cfIL+Ur/ywHP1QGuUnL0BzuMXqC61iQ==",
+        "esm_specifier": "mastra-memory-alpha/processors",
+        "esm_entry": "node_modules/mastra-memory-alpha/dist/processors/index.js",
+        "esm_entry_sha256": "f115eb89e20e953ba6eb95081a777a8cc0f542f5069c93565500d27c1a427e2e",
+        "package_json_sha256": "78e399caf105893dd9b0d184053ba3c2506d035358c692f45968fd772f981c1d"
+      },
+      {
+        "installation": "@mastra/core",
+        "name": "@mastra/core",
+        "version": "1.77.0",
+        "declared": "1.77.0",
+        "lock_integrity": "sha512-fqsYjAcQa/kwNYQ/vM21p5g0Kfjq/FX5U0VtROCnfyXN6mcws/WZn9zXGdTE69pWi34lwc6ZBogKsz84r+Mu1w==",
+        "esm_specifier": "@mastra/core",
+        "esm_entry": "node_modules/@mastra/core/dist/index.js",
+        "esm_entry_sha256": "3825200ca435343923352238ac2ba57f3b8ba78084bfb47ad8b28491764ba734",
+        "package_json_sha256": "087c48884a054c8d983422fba1198d60b70f776bec49c5b1a839e3d1e85eb6f0"
+      },
+      {
+        "installation": "tokenx-legacy",
+        "name": "tokenx",
+        "version": "1.3.0",
+        "declared": "npm:tokenx@1.3.0",
+        "lock_integrity": "sha512-NLdXTEZkKiO0gZuLtMoZKjCXTREXeZZt8nnnNeyoXtNZAfG/GKGSbQtLU5STspc0rMSwcA+UJfWZkbNU01iKmQ==",
+        "esm_specifier": "tokenx-legacy",
+        "esm_entry": "node_modules/tokenx-legacy/dist/index.mjs",
+        "esm_entry_sha256": "f4559238c00988f61ed705424460cb393ea1500afb3340227f45bd0c4a6a5ecb",
+        "package_json_sha256": "5bea8a91769e3103e1fabacfb1a51777c8d377b81778c9fc5d72fa6ebd7f2b8b"
+      },
+      {
+        "installation": "tokenx",
+        "name": "tokenx",
+        "version": "1.6.0",
+        "declared": "1.6.0",
+        "lock_integrity": "sha512-CKTjk345ajvBAUp5xUI9a5KKN0zU0lBueVHQbCskH1Hp6WkUKsPW2qGCYNs0pxNyfzxfo+IIjdt2W4sMbw/qBw==",
+        "esm_specifier": "tokenx",
+        "esm_entry": "node_modules/tokenx/dist/index.mjs",
+        "esm_entry_sha256": "813941f2e6efb59fc636f79651fda48d028f1cb8ed8228dd39b665bb2db36ff8",
+        "package_json_sha256": "038eec6e728da60c06e4d939f3d448689993dc02c64a21b9ad6a2f0baf1a13cf"
+      },
+      {
+        "installation": "zod",
+        "name": "zod",
+        "version": "4.6.7",
+        "declared": "4.6.7",
+        "lock_integrity": "sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==",
+        "esm_specifier": "zod",
+        "esm_entry": "node_modules/zod/index.js",
+        "esm_entry_sha256": "32e7efd49a94a765f6d10a1a0a3c02c50c246def17c80c6f0225f85525d98505",
+        "package_json_sha256": "c2d190d9ee4e0bdb60332aaa2130a6a98d65ddb903fe1d29248b15de57832c45"
+      }
+    ],
+    "function_sha256": {
+      "stable_countString": "40244e487393ecf2c123172c4919c0b846b7709838a439c220565b16c2ffff42",
+      "alpha_countString": "40244e487393ecf2c123172c4919c0b846b7709838a439c220565b16c2ffff42",
+      "legacy_estimateTokenCount": "7ca37a2b22ea76216493203876a4dfcd48dd2494c9b40b11d87a516ae3e96d2c",
+      "comparator_estimateTokenCount": "9ab617ab7ce2b2239d00536949f3bc4bde96e29c431cd68abe55d884e18d5248"
+    }
+  },
+  "cases": [
+    {
+      "id": "reported-zero-28000",
+      "category": "reported-digits",
+      "generator": {
+        "kind": "repeat",
+        "text": "0",
+        "count": 28000
+      },
+      "utf8_bytes": 28000,
+      "code_points": 28000,
+      "utf16_units": 28000,
+      "input_sha256": "9142a6b0761f27638f8d3defbc6c6ea286cbcd91107dadcb2d0022bbb1c8bdb9",
+      "counts": {
+        "stable": 1,
+        "alpha": 1,
+        "legacy": 1,
+        "comparator": 9334
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": 9334,
+      "comparator_over_stable": 9334
+    },
+    {
+      "id": "reported-digits-20",
+      "category": "reported-digits",
+      "input": "12345678901234567890",
+      "utf8_bytes": 20,
+      "code_points": 20,
+      "utf16_units": 20,
+      "input_sha256": "6ed645ef0e1abea1bf1e4e935ff04f9e18d39812387f63cda3415b46240f0405",
+      "counts": {
+        "stable": 1,
+        "alpha": 1,
+        "legacy": 1,
+        "comparator": 7
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": 7,
+      "comparator_over_stable": 7
+    },
+    {
+      "id": "reported-timestamp-13",
+      "category": "reported-digits",
+      "input": "1700000000000",
+      "utf8_bytes": 13,
+      "code_points": 13,
+      "utf16_units": 13,
+      "input_sha256": "bc99b4bf100ad96cc4db80d1f6b724f9d17d0a1c19f011d908ee810fffda7484",
+      "counts": {
+        "stable": 1,
+        "alpha": 1,
+        "legacy": 1,
+        "comparator": 5
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": 5,
+      "comparator_over_stable": 5
+    },
+    {
+      "id": "reported-english",
+      "category": "reported-control",
+      "input": "hello world this is text",
+      "utf8_bytes": 24,
+      "code_points": 24,
+      "utf16_units": 24,
+      "input_sha256": "46e5e762fd781907641d897e379962ab018c282c22aad853d2c0a137afb931d1",
+      "counts": {
+        "stable": 5,
+        "alpha": 5,
+        "legacy": 5,
+        "comparator": 5
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": null,
+      "comparator_over_stable": 1
+    },
+    {
+      "id": "digits-1",
+      "category": "digit-boundary",
+      "input": "1",
+      "utf8_bytes": 1,
+      "code_points": 1,
+      "utf16_units": 1,
+      "input_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "counts": {
+        "stable": 1,
+        "alpha": 1,
+        "legacy": 1,
+        "comparator": 1
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": 1,
+      "comparator_over_stable": 1
+    },
+    {
+      "id": "digits-2",
+      "category": "digit-boundary",
+      "input": "12",
+      "utf8_bytes": 2,
+      "code_points": 2,
+      "utf16_units": 2,
+      "input_sha256": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+      "counts": {
+        "stable": 1,
+        "alpha": 1,
+        "legacy": 1,
+        "comparator": 1
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": 1,
+      "comparator_over_stable": 1
+    },
+    {
+      "id": "digits-3",
+      "category": "digit-boundary",
+      "input": "123",
+      "utf8_bytes": 3,
+      "code_points": 3,
+      "utf16_units": 3,
+      "input_sha256": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "counts": {
+        "stable": 1,
+        "alpha": 1,
+        "legacy": 1,
+        "comparator": 1
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": 1,
+      "comparator_over_stable": 1
+    },
+    {
+      "id": "digits-4",
+      "category": "digit-boundary",
+      "input": "1234",
+      "utf8_bytes": 4,
+      "code_points": 4,
+      "utf16_units": 4,
+      "input_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "counts": {
+        "stable": 1,
+        "alpha": 1,
+        "legacy": 1,
+        "comparator": 2
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": 2,
+      "comparator_over_stable": 2
+    },
+    {
+      "id": "leading-zero-20",
+      "category": "leading-zero",
+      "input": "00001234567890123456",
+      "utf8_bytes": 20,
+      "code_points": 20,
+      "utf16_units": 20,
+      "input_sha256": "3baefb7cef6078c9c13fc1361d50f4c9e8e12d8c59af0afe98a53a5f89d5787c",
+      "counts": {
+        "stable": 1,
+        "alpha": 1,
+        "legacy": 1,
+        "comparator": 7
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": 7,
+      "comparator_over_stable": 7
+    },
+    {
+      "id": "spaced-numbers",
+      "category": "spaced-numbers",
+      "input": "1234567890 1700000000000 00001234",
+      "utf8_bytes": 33,
+      "code_points": 33,
+      "utf16_units": 33,
+      "input_sha256": "30b18287bdc36379bc7450ee5ba6af4cdf606c8f15b7762cfd5868e26139408e",
+      "counts": {
+        "stable": 3,
+        "alpha": 3,
+        "legacy": 3,
+        "comparator": 12
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": null,
+      "comparator_over_stable": 4
+    },
+    {
+      "id": "mixed-json",
+      "category": "mixed-json",
+      "input": "{\"id\":\"00001234567890123456\",\"total\":12345,\"ok\":true}",
+      "utf8_bytes": 53,
+      "code_points": 53,
+      "utf16_units": 53,
+      "input_sha256": "49e9291cf04c00565833c6d5d9ef6a75c941113d76fbf840dbf3ef2d32d7af80",
+      "counts": {
+        "stable": 17,
+        "alpha": 17,
+        "legacy": 17,
+        "comparator": 20
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": null,
+      "comparator_over_stable": 1.1764705882352942
+    },
+    {
+      "id": "decimal",
+      "category": "decimal",
+      "input": "1234567890.1234567890",
+      "utf8_bytes": 21,
+      "code_points": 21,
+      "utf16_units": 21,
+      "input_sha256": "6190259c94ee14f29f4444f83ef0bd0ffab82c0ac1d99b8a13c0a3934ef15131",
+      "counts": {
+        "stable": 3,
+        "alpha": 3,
+        "legacy": 3,
+        "comparator": 9
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": null,
+      "comparator_over_stable": 3
+    },
+    {
+      "id": "english-punctuation",
+      "category": "english-control",
+      "input": "Hello, world! This is a short sentence.",
+      "utf8_bytes": 39,
+      "code_points": 39,
+      "utf16_units": 39,
+      "input_sha256": "ae975a70e00d1508405a6ecd9374ae5c12c4eb3d9769941b04c1cbdcc93eb325",
+      "counts": {
+        "stable": 11,
+        "alpha": 11,
+        "legacy": 11,
+        "comparator": 11
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": null,
+      "comparator_over_stable": 1
+    },
+    {
+      "id": "cjk",
+      "category": "cjk-control",
+      "input": "你好世界。日本語のテスト。",
+      "utf8_bytes": 39,
+      "code_points": 13,
+      "utf16_units": 13,
+      "input_sha256": "90bdbcd9b301222581e2718e6d5da588332cc058c35b0fd4b71a3d664fef3363",
+      "counts": {
+        "stable": 13,
+        "alpha": 13,
+        "legacy": 13,
+        "comparator": 12
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": null,
+      "comparator_over_stable": 0.9230769230769231
+    },
+    {
+      "id": "emoji",
+      "category": "emoji-control",
+      "input": "😀 👩‍💻 🚀",
+      "utf8_bytes": 21,
+      "code_points": 7,
+      "utf16_units": 11,
+      "input_sha256": "c6593339e4701cd794d67669d2a1d1c258dec442119cf269faf01a1803114319",
+      "counts": {
+        "stable": 3,
+        "alpha": 3,
+        "legacy": 3,
+        "comparator": 8
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": null,
+      "comparator_over_stable": 2.6666666666666665
+    },
+    {
+      "id": "empty",
+      "category": "empty-control",
+      "input": "",
+      "utf8_bytes": 0,
+      "code_points": 0,
+      "utf16_units": 0,
+      "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": {
+        "stable": 0,
+        "alpha": 0,
+        "legacy": 0,
+        "comparator": 0
+      },
+      "ascii_digit_heuristic_ceil_n_over_3": null,
+      "comparator_over_stable": null
+    }
+  ]
+}
